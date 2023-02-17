@@ -171,7 +171,7 @@ fn main() {
     println!("fake_name: {fake_name}");
     // 宮本など
 
-    let phone_number = PhoneNumber(JA_JP).fake::<String>();
-    println!("fake_phone_number: {phone_number}");
+    let cell_phone_number = CellNumber(JA_JP).fake::<String>();
+    println!("cell_phone_number: {cell_phone_number}");
     // 0595-33-4629など
 }
